@@ -76,6 +76,7 @@ INSERT INTO PROFESSOR (NOME) VALUES
 GO
 
 -- Inserção de matérias
+-- Carga horária está em quantidade de aulas    
 INSERT INTO MATERIAS (SIGLA, NOME, CARGAHORARIA, CURSO, PROFESSOR) VALUES
 ('CGRA-I', 'COMPUTAÇÃO GRÁFICA', 36, 'DEA', 10),
 ('DOB-I', 'DESENHO DE OBSERVAÇÃO', 36, 'DEA', 10),
